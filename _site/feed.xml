@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2021-01-02T15:56:59+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">c3phas</title><subtitle>This is my personal site.</subtitle><author><name>Peter Macharia</name></author><entry><title type="html">What to expect</title><link href="http://localhost:4000/blog/2021/01/02/content/" rel="alternate" type="text/html" title="What to expect" /><published>2021-01-02T00:00:00+03:00</published><updated>2021-01-02T00:00:00+03:00</updated><id>http://localhost:4000/blog/2021/01/02/content</id><content type="html" xml:base="http://localhost:4000/blog/2021/01/02/content/">&lt;p&gt;Going to be sharing my notes and other security related materials.
+Topics to be covered will include:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Linux fundamentals&lt;/li&gt;
+  &lt;li&gt;Bash scripting&lt;/li&gt;
+  &lt;li&gt;Python For hackers&lt;/li&gt;
+  &lt;li&gt;Automation using python and bash&lt;/li&gt;
+  &lt;li&gt;Web hacking fundamentals&lt;/li&gt;
+  &lt;li&gt;Mobile hacking fundamentals(Android)&lt;/li&gt;
+  &lt;li&gt;CTF writeups(hopefully)&lt;/li&gt;
+  &lt;li&gt;Usage of common hacking tools&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Peter Macharia</name></author><category term="blog" /><summary type="html">Going to be sharing my notes and other security related materials. Topics to be covered will include:</summary></entry></feed>

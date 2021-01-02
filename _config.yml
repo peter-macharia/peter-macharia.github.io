@@ -1,4 +1,89 @@
 #theme: jekyll-theme-cayman
 remote_theme: "mmistakes/minimal-mistakes@4.16.5"
- plugins:
-   - jekyll-include-cache
+minimal_mistakes_skin: "dark"
+
+title: c3phas
+markdown: kramdown
+description: This is my personal site.
+subtitle: Random stuff including my own notes
+name: Peter Macharia
+url: "https://peter-macharia.github.io"
+repository: "peter-macharia/peter-macharia.github.io"
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+
+
+author:
+  name: "Peter Macharia"
+  avatar: "/Images/cephas.jpg"
+  bio: "I am a passionate C ,Rust,Bash,Perl,python and java coder Doing security and bug bounty for fun"
+  location: "Kenya"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/peter-macharia"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://www.twitter.com/macharia_cephas"
+  
+# Site Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/peter-macharia"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter"
+      url: "https://www.twitter.com/macharia_cephas"
+
+# reading files
+include:
+  - _pages
+
+exclude: [vendor]
+
+# commenting
+#comments:
+  #provider: "facebook"
+  #facebook:
+    #appid: # optional
+   # num_posts: 5
+    #colorscheme: "dark"
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-feed
+
+# defaults
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: project
+    values:
+      layout: single
+      author_profile: false
+      share: true
+
+collections:
+  project:
+    output: true
+    permalink: /:collection/:path/
